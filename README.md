@@ -41,5 +41,5 @@ sh_test(
 ````
 
 Notes:
-- This rule does not support unquoted env vars
-- This rule does not support 
+- This rule only supports quoted env vars (see #1)
+- This rule only supports env files in a bazel package (see #2)
