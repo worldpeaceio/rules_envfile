@@ -12,7 +12,7 @@ SOME_ENV="Hello, world!"
 
 In `WORKSPACE`:
 ```starlark
-load(@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 http_archive(
     # Get copy pase instructions for the http_archive attributes from the
     # release notes at https://github.com/worldpeaceio/rules_envfile/releases
