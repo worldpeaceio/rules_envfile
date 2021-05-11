@@ -1,0 +1,9 @@
+load("@env//:environment.bzl", "PACKAGE")
+
+sh_test(
+    name = "test",
+    srcs = ["test.sh"],
+    env = {
+        "PACKAGE": PACKAGE,
+    },
+)
