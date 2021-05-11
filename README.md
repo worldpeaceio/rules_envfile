@@ -41,5 +41,5 @@ sh_test(
 ````
 
 Notes:
-- This rule only supports quoted env vars (see #1)
-- This rule only supports env files in a bazel package (see #2)
+- This rule only supports quoted env vars (see [#1](https://github.com/worldpeaceio/rules_envfile/issues/1))
+- This rule only supports env files in a bazel package (see [#2](https://github.com/worldpeaceio/rules_envfile/issues/2))
