@@ -4,7 +4,7 @@
 
 This rule can be used to import environment vars into a Bazel workflow directly from an environment file.
 
-### Basic usage
+## Basic usage
 
 In `.env`:
 ```shell
