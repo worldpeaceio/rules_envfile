@@ -2,7 +2,6 @@
 
 ![Build](https://github.com/worldpeaceio/rules_envfile/actions/workflows/ci.yml/badge.svg?branch=main)
 
-
 This rule can be used to import environment vars into a Bazel workflow directly from an environment file.
 
 ### Basic usage

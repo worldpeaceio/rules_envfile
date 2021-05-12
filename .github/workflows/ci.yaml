@@ -8,6 +8,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
+    - name: Super-Linter
+      uses: github/super-linter@v3.17.0
+
     - name: Mount bazel cache
       uses: actions/cache@v1
       with:
