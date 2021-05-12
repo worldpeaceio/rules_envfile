@@ -1,9 +1,10 @@
-load("@env//:environment.bzl", "PACKAGE")
+load("@env//:environment.bzl", "QUOTED", "UNQUOTED")
 
 sh_test(
     name = "test",
     srcs = ["test.sh"],
     env = {
-        "PACKAGE": PACKAGE,
+        "QUOTED": QUOTED,
+        "UNQUOTED": UNQUOTED,
     },
 )
