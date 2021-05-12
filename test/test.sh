@@ -1,6 +1,7 @@
 #!/bin/bash
 
-if [ "${QUOTED}" != "foo" ]; then
+if [ "${QUOTED}" != "foo
+bar" ]; then
     echo "QUOTED not set"
     exit 1
 fi
