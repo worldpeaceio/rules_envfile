@@ -20,16 +20,16 @@ http_archive(
 
 load("@io_worldpeace_rules_envfile//:def.bzl", "envfile")
 envfile(
-    name = "env",
+    name = "envfile",
     files = [
         "//.env"
     ]
 )
 ```
 
-In a `BUILD.bazel` file:
+Example using an env var in a `BUILD.bazel` file:
 ```starlark
-load("@env//:environment.bzl", "SOME_ENV")
+load("@envfile//:environment.bzl", "SOME_ENV")
 
 sh_test(
     name = "test",
@@ -41,5 +41,4 @@ sh_test(
 ````
 
 Notes:
-- This rule only supports quoted env vars (see [#1](https://github.com/worldpeaceio/rules_envfile/issues/1))
 - This rule only supports env files in a bazel package (see [#2](https://github.com/worldpeaceio/rules_envfile/issues/2))
