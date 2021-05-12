@@ -1,7 +1,12 @@
 #!/bin/bash
 
-if [ "${PACKAGE}" != "foo" ]; then
-    echo "PACKAGE not set"
+if [ "${QUOTED}" != "foo" ]; then
+    echo "QUOTED not set"
+    exit 1
+fi
+
+if [ "${UNQUOTED}" != "baz" ]; then
+    echo "UNQUOTED not set"
     exit 1
 fi
 
