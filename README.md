@@ -1,6 +1,6 @@
 # Bazel env file rules
 
-![Build](https://github.com/worldpeaceio/rules_envfile/actions/workflows/ci.yml/badge.svg?branch=main)
+[![Build Status](https://github.com/worldpeaceio/rules_envfile/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/worldpeaceio/rules_envfile/actions?query=branch%3Amain)
 
 This rule can be used to import environment vars into a Bazel workflow directly from an environment file.
 
